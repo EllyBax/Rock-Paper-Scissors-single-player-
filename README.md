@@ -22,6 +22,6 @@ Open the _index.html_ file in your favorite browser, and let the fun unfold!
 ## Issues and Feedback
 If you encounter any issues or have suggestions for improvements, please don't hesitate to open an issue. Your input is highly valued as we grow and learn together.
 ## License
-This project is licensed under the [MIT License](https://opensource.org/license/mit/)  - see the [LICENSE](/LICENSE.md) file for details.
+This project is licensed under the [MIT License](https://opensource.org/license/mit/)  - see the [LICENSE](/LICENSE) file for details.
 ---
 Feel the joy, click away, and embrace the playful spirit of Rock, Paper, Scissors! 🚀Happy gaming! ?
