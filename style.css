@@ -1,0 +1,75 @@
+body {
+  padding: 20px;
+}
+    h1 {
+      text-align: center;
+      color: #007bff; /* Bootstrap 5 primary color */
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    label {
+      margin-bottom: 10px;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .space-between {
+      justify-content: space-between;
+    }
+
+    #result {
+      font-size: 2rem; /* Adjusted font size for better visibility */
+    }
+    
+
+.theme-switch {
+  position: fixed;
+  top: 20px; /* Adjust the distance from the top */
+  right: 50px; /* Adjust the distance from the right */
+  z-index: 1000; /* Set a high z-index to make sure it appears above other elements */
+  display: inline-block;
+}
+
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.theme-switch label {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.theme-switch .bx {
+  font-size: 30px;
+}
+
+.theme-switch #moonIcon {
+  display: none; /* Initially hide the moon icon */
+}
+
+.theme-switch input:checked + label #moonIcon {
+  display: inline-block; /* Show the moon icon when checked */
+}
+
+.theme-switch input:checked + label #sunIcon {
+  display: none; /* Hide the sun icon when checked */
+}
+  </
